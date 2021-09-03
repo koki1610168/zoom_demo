@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FF9636;
+}
+
+body {
+    background-color: #FF9636;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 6rem;
+}
+
+.row {
+    margin-top: 18rem;
+}
+.choose {
+    position: relative;
+}
+
+.choose a {
+    background: #fff;
+    font-weight: 500;
+    padding: 1rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #FF9636;
+    font-size: 4rem;
+    
+}
+
+.choose a:hover {
+    color: #FF9636;
+    background-color: #000;
+}
+
+
+
+.English {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.Japanese {
+    text-align: center;
+    margin-top: 3rem;
+}
+

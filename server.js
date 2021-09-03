@@ -8,7 +8,19 @@ app.set('view engine', 'ejs')
 app.use(express.static('public'))
 
 app.get('/', (req, res) => {
+  res.render('start.ejs')
+})
+
+app.get('/en', (req, res) => {
   res.render('index.ejs')
+})
+
+app.get('/jp', (req, res) => {
+  res.render('index-jp.ejs')
+})
+
+app.get('/start', (req, res) => {
+  res.render('choose.ejs')
 })
 
 app.get('/about', (req, res) => {
